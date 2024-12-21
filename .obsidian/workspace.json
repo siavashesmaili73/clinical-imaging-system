@@ -1,0 +1,204 @@
+{
+  "main": {
+    "id": "873dfe0e82fee559",
+    "type": "split",
+    "children": [
+      {
+        "id": "13d25bb0ec8668a6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "092962aee18067b7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2024-05-09.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "eab200c42f44c1b8",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "46594e79187a54ae",
+    "type": "split",
+    "children": [
+      {
+        "id": "6fe54badf1f675d9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7c450edb9c0778e9",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "91c80afaac69c210",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "july",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "dc0787c26ea82f90",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "9879f76faaca6fd8",
+    "type": "split",
+    "children": [
+      {
+        "id": "88a9a7a6613ab547",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a74e63f509b6c56b",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "2024-05-09.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "3326999376fcafc3",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "2024-05-09.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "2a7016971deeb636",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "2d9e906df89f1de6",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "2024-05-09.md"
+              }
+            }
+          },
+          {
+            "id": "fd70f1be65b7f2be",
+            "type": "leaf",
+            "state": {
+              "type": "smart-connections-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "bc13592a726ad83d",
+            "type": "leaf",
+            "state": {
+              "type": "smart-connections-chat-view",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "horizontal",
+    "width": 630.5,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "audio-recorder:Start/stop recording": false,
+      "omnisearch:Omnisearch": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
+    }
+  },
+  "active": "eab200c42f44c1b8",
+  "lastOpenFiles": [
+    "Untitled.canvas",
+    "Excalidraw/Drawing 2024-05-27 17.02.30.excalidraw.md",
+    "2024-05-09.md",
+    "Excalidraw",
+    "2024-04-21.md",
+    "Sound Better NOW - An Introduction to Audio Editing.srt",
+    "Lecture 23 (4).pdf",
+    "Solving Trig Equations Quiz #2 Review.pdf",
+    "MS1/Organization/Preclerkship Semester 1 Overview.pdf",
+    "MS1/Organization",
+    "MS1/untitled folder",
+    "MS1/Preclerkship Semester 1 Overview.pdf",
+    "smart-chats/UNTITLED CHAT 2024-05-09 18 44 32.md",
+    "smart-chats",
+    "Financial Aid FAQs for incoming COM students 2024.md",
+    "Recording 20240423161524.webm",
+    "Untitled.md",
+    "Untitled 1.canvas",
+    "Untitled 1.md",
+    "Untitled 2.canvas",
+    "2024-04-23.md",
+    "MS1/Courses-MS1/Anatomy.md"
+  ]
+}

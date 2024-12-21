@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ms. Mitra Esmaili Dental Clinic</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Ms. Mitra Esmaili Dental Clinic</h1>
+    </header>
+
+    <div class="container">
+        <nav class="sidebar">
+            <div class="nav-item active" data-view="home">
+                <i class="icon">🏠</i>
+                <span>Home</span>
+            </div>
+            <div class="nav-item" data-view="calendar">
+                <i class="icon">📅</i>
+                <span>Calendar</span>
+            </div>
+            <div class="nav-item" data-view="notes">
+                <i class="icon">📝</i>
+                <span>Notes</span>
+            </div>
+            <div class="nav-item" data-view="reminders">
+                <i class="icon">⏰</i>
+                <span>Reminders</span>
+            </div>
+        </nav>
+
+        <main class="content">
+            <!-- Patient List View -->
+            <div id="home-view" class="view active">
+                <div class="patients-list">
+                    <div class="add-patient">
+                        <button class="add-patient-btn">+ Add New Patient</button>
+                    </div>
+                    <div class="patient-cards">
+                        <div class="patient-card" data-id="1">
+                            <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTUwIiBoZWlnaHQ9IjE1MCIgdmlld0JveD0iMCAwIDE1MCAxNTAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHJlY3Qgd2lkdGg9IjE1MCIgaGVpZ2h0PSIxNTAiIGZpbGw9IiNFM0YyRkQiLz48Y2lyY2xlIGN4PSI3NSIgY3k9IjYwIiByPSIzMCIgZmlsbD0iIzY0QjVGNiIvPjxwYXRoIGQ9Ik03NSAxMDAgUSA3NSAxNTAgMTIwIDE1MCBMMzAgMTUwIFEgNzUgMTUwIDc1IDEwMCIgZmlsbD0iIzY0QjVGNiIvPjwvc3ZnPg==" alt="Patient">
+                            <h3>John Smith</h3>
+                            <p>Next Appointment: Dec 20, 2024</p>
+                        </div>
+                        <div class="patient-card" data-id="2">
+                            <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTUwIiBoZWlnaHQ9IjE1MCIgdmlld0JveD0iMCAwIDE1MCAxNTAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHJlY3Qgd2lkdGg9IjE1MCIgaGVpZ2h0PSIxNTAiIGZpbGw9IiNFM0YyRkQiLz48Y2lyY2xlIGN4PSI3NSIgY3k9IjYwIiByPSIzMCIgZmlsbD0iIzY0QjVGNiIvPjxwYXRoIGQ9Ik03NSAxMDAgUSA3NSAxNTAgMTIwIDE1MCBMMzAgMTUwIFEgNzUgMTUwIDc1IDEwMCIgZmlsbD0iIzY0QjVGNiIvPjwvc3ZnPg==" alt="Patient">
+                            <h3>Sarah Johnson</h3>
+                            <p>Next Appointment: Dec 22, 2024</p>
+                        </div>
+                        <div class="patient-card" data-id="3">
+                            <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTUwIiBoZWlnaHQ9IjE1MCIgdmlld0JveD0iMCAwIDE1MCAxNTAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHJlY3Qgd2lkdGg9IjE1MCIgaGVpZ2h0PSIxNTAiIGZpbGw9IiNFM0YyRkQiLz48Y2lyY2xlIGN4PSI3NSIgY3k9IjYwIiByPSIzMCIgZmlsbD0iIzY0QjVGNiIvPjxwYXRoIGQ9Ik03NSAxMDAgUSA3NSAxNTAgMTIwIDE1MCBMMzAgMTUwIFEgNzUgMTUwIDc1IDEwMCIgZmlsbD0iIzY0QjVGNiIvPjwvc3ZnPg==" alt="Patient">
+                            <h3>Michael Brown</h3>
+                            <p>Next Appointment: Dec 23, 2024</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="patient-details hidden">
+                <div class="profile-section">
+                    <div class="profile-picture" id="profile-upload">
+                        <img src="default-profile.png" alt="Patient Profile" id="profile-img">
+                        <div class="upload-overlay">Click to Upload Photo</div>
+                    </div>
+                    <input type="file" id="profile-input" hidden accept="image/*">
+                    
+                    <div class="patient-details">
+                        <input type="text" placeholder="Patient Name" class="detail-input">
+                        <input type="date" class="detail-input">
+                        <input type="tel" placeholder="Phone Number" class="detail-input">
+                        <input type="email" placeholder="Email" class="detail-input">
+                        <textarea placeholder="Medical History" class="detail-input"></textarea>
+                    </div>
+                </div>
+                </div>
+
+                <div class="treatment-info">
+                <div class="treatment-section">
+                    <h2>Treatment Plan</h2>
+                    <div class="treatment-entry">
+                        <input type="date" class="treatment-date">
+                        <textarea placeholder="Treatment Details" class="treatment-details"></textarea>
+                    </div>
+                    <button class="add-treatment">+ Add Treatment</button>
+                </div>
+
+                <div class="xray-section">
+                    <h2>X-Rays & Images</h2>
+                    <div class="xray-gallery" id="xray-upload">
+                        <div class="upload-box">+ Upload X-Ray</div>
+                    </div>
+                    <input type="file" id="xray-input" hidden accept="image/*" multiple>
+                </div>
+                </div>
+            </div>
+
+            <!-- Calendar View -->
+            <div id="calendar-view" class="view">
+                <div class="calendar-container">
+                    <div class="calendar-header">
+                        <button class="calendar-nav prev">←</button>
+                        <h2 class="current-month">December 2024</h2>
+                        <button class="calendar-nav next">→</button>
+                    </div>
+                    <div class="calendar-grid">
+                        <div class="weekdays">
+                            <div>Sun</div>
+                            <div>Mon</div>
+                            <div>Tue</div>
+                            <div>Wed</div>
+                            <div>Thu</div>
+                            <div>Fri</div>
+                            <div>Sat</div>
+                        </div>
+                        <div class="days"></div>
+                    </div>
+                    <div class="day-details">
+                        <h3>December 20, 2024</h3>
+                        <div class="appointments">
+                            <div class="appointment">
+                                <div class="time">09:00 AM</div>
+                                <div class="patient-info">
+                                    <strong>John Smith</strong>
+                                    <p>Treatment: Dental Cleaning</p>
+                                </div>
+                            </div>
+                            <div class="appointment">
+                                <div class="time">11:30 AM</div>
+                                <div class="patient-info">
+                                    <strong>Sarah Johnson</strong>
+                                    <p>Treatment: Root Canal</p>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="add-appointment">+ Add Appointment</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Notes View -->
+            <div id="notes-view" class="view">
+                <div class="notes-container">
+                    <div class="notes-list">
+                        <button class="add-note">+ New Note</button>
+                        <div class="notes"></div>
+                    </div>
+                    <div class="note-editor">
+                        <input type="text" class="note-title" placeholder="Note Title">
+                        <textarea class="note-content" placeholder="Write your note here..."></textarea>
+                        <button class="save-note">Save Note</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Reminders View -->
+            <div id="reminders-view" class="view">
+                <div class="reminders-container">
+                    <div class="add-reminder">
+                        <input type="text" placeholder="Reminder Title" class="reminder-title">
+                        <input type="datetime-local" class="reminder-datetime">
+                        <button class="save-reminder">Add Reminder</button>
+                    </div>
+                    <div class="reminders-list">
+                        <h3>Upcoming Reminders</h3>
+                        <div class="reminders"></div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <footer>
+        <div class="clinic-info">
+            <p>📍 NYU College of Dentistry</p>
+            <p>📧 me@nyu.edu</p>
+            <p>📞 (123) 456-7890</p>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
